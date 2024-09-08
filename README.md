@@ -20,7 +20,7 @@ transformers==4.13.0
 ## Data
 Our work is based on the `PolitiFact` and `GossipCop` datasets from the [FakeNewsNet benchmark](https://github.com/KaiDMML/FakeNewsNet), and the `LUN` dataset from [(Rashkin et al., 2017)](https://aclanthology.org/D17-1317.pdf). 
 
-We provide the data files utilized for training and evaluating SheepDog under `data/`. 
+We provide the data files utilized for training and evaluating SheepDog under `data/`. In our data files, the label `0` represents real news, and the label `1` represents fake news.
 
 **Original Unaltered Training / Test Articles**
 
